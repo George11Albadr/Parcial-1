@@ -18,7 +18,7 @@ class TestminiMain(unittest.Testcase):
         pass
     
     def test_agregarInventario(self):
-        
+        print('test_agregarInventario')
         self.assertEqual(self.ombre_producto1.agregarInventario,'pollo')
         self.assertEqual(self.cantidad_producto1.agregarInventario, 90)
         
