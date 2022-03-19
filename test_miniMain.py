@@ -14,7 +14,8 @@ class TestminiMain(unittest.Testcase):
         self.nombre_producto1 = miniMain('pollo')
         self.cantidad_producto1 = miniMain(90)
     
-    def tearDown(self): 
+    def tearDown(self):
+        print('tearDown/n')
         pass
     
     def test_agregarInventario(self):
